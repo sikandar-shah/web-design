@@ -26,6 +26,6 @@ For better results, you need to do the following.
    the problem with your code.
 
 ```
-[Activity 1](https://www.w3schools.com/default.asp) are the big three. They allow you to design and develop web sites, *statically*.
+[Activity 2](https://github.com/sikandar-shah/web-design/wiki/Activity-2) are the big three. They allow you to design and develop web sites, *statically*.
 
 Running
