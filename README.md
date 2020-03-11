@@ -31,6 +31,10 @@ For better results, you need to do the following.
  In order to practice heading tags that are of 6 types of the format hx (where x can be from 1 to 6). h1 being the largest and h6 being the smallest. This tag is written as a pair meaning that it has an opening and closing tag. Click [Heading tags practice](https://github.com/sikandar-shah/web-design/blob/HTML/exercise1.html) 
 
 ## Hyperlink Tag
-In order to practise understand hyperlinks, you need two pages to demonstrate the concept. Obviously you need to create a hyperlink on one page that links to another page. For this activity, we have two pages, firstpage.html and secondpage.html. Practising this activity will show you how to navigate from one page to another.
+In order to understand hyperlinks, you need two pages to demonstrate the concept. Obviously you need to create a hyperlink on one page that links to another page. For this activity, we have two pages, firstpage.html and secondpage.html. Practising this activity will show you how to navigate from one page to another.
 [first page](https://github.com/sikandar-shah/web-design/blob/HTML/firstpage.html)  
 [second page](https://github.com/sikandar-shah/web-design/blob/HTML/secondpage.html)
+
+## Paragraph and Empty Tag
+This activity will delve in showing paragragh tag and one empty tag. Line break is used for marking a new section and it HTML an empty tag called <br> is used. In this example same content as used in Hyperlink Tag example is used.
+[paragraph and empty tags](https://github.com/sikandar-shah/web-design/blob/HTML/paragraph.html) 
