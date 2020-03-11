@@ -36,7 +36,7 @@ In order to understand hyperlinks, you need two pages to demonstrate the concept
 [second page](https://github.com/sikandar-shah/web-design/blob/HTML/secondpage.html)
 
 ## Paragraph and Empty Tag
-This activity will delve in showing paragragh tag and one empty tag. Line break is used for marking a new section and it HTML an empty tag called <br> is used. In this example same content as used in Hyperlink Tag example is used.
+This activity will delve in showing paragragh tag and one empty tag. Line break is used for marking a new section and it HTML an empty tag called <br> is used. In this example same content as used in Hyperlink Tag example is used. Other empty tags are image, input, link, meta and hr etc. These will be covered in seperate activity.
 [paragraph and empty tags](https://github.com/sikandar-shah/web-design/blob/HTML/paragraph.html)
 
 ## Formatting tags
