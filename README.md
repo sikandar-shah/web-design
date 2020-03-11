@@ -49,4 +49,4 @@ This activity demonstrates nested tags and you can easily use this content to se
    
 ## Comments in HTML
 This activity will enable you to learn about comments. single line and multiline comments are sometimes needed for debugging purposes. The coder also can save hints in comments in HTML.
-[Comments tag](https://github.com/sikandar-shah/web-design/blob/HTML/comment.html)
+[Comments tag](https://github.com/sikandar-shah/web-design/blob/HTML/comments.html)
