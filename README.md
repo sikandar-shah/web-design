@@ -42,3 +42,7 @@ This activity will delve in showing paragragh tag and one empty tag. Line break 
 ## Formatting tags
 This activity demonstrates formatting tags and you can easily use this content to change formatting for yourself accordingly. There are many tags and the best way to find out how to format your content is write some lines in word and highlight some text, underline others and do similar stuff to the remaining. Try to match your html content to the output of word document. Its a really fun way to practise and learn. 
 [formatting tags](https://github.com/sikandar-shah/web-design/blob/HTML/formatting.html)
+
+## Nested tags
+This activity demonstrates nested tags and you can easily use this content to see how nested tags work. The tags that are nested inside should have opening and closing tags in pairs. for example in <head> we write opening tag <title> inside it and then closing title before closing head. It cant be such that you close head before closing title. There is a hiearchial order. 
+[Nested tags](https://github.com/sikandar-shah/web-design/blob/HTML/nestedtag.html)
