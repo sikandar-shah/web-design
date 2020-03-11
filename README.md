@@ -37,4 +37,8 @@ In order to understand hyperlinks, you need two pages to demonstrate the concept
 
 ## Paragraph and Empty Tag
 This activity will delve in showing paragragh tag and one empty tag. Line break is used for marking a new section and it HTML an empty tag called <br> is used. In this example same content as used in Hyperlink Tag example is used.
-[paragraph and empty tags](https://github.com/sikandar-shah/web-design/blob/HTML/paragraph.html) 
+[paragraph and empty tags](https://github.com/sikandar-shah/web-design/blob/HTML/paragraph.html)
+
+## Formatting tags
+This activity demonstrates formatting tags and you can easily use this content to change formatting for yourself accordingly. There are many tags and the best way to find out how to format your content is write some lines in word and highlight some text, underline others and do similar stuff to the remaining. Try to match your html content to the output of word document. Its a really fun way to practise and learn. 
+[formatting tags](https://github.com/sikandar-shah/web-design/blob/HTML/formatting.html)
