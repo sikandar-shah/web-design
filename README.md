@@ -1,4 +1,4 @@
-# web design class
+# Web Design and Development
 
 
 > easy, to follow tutorials for helping student to get from novice level to expert level.
