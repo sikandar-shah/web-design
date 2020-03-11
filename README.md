@@ -46,3 +46,11 @@ This activity demonstrates formatting tags and you can easily use this content t
 ## Nested tags
 This activity demonstrates nested tags and you can easily use this content to see how nested tags work. The tags that are nested inside should have opening and closing tags in pairs. for example in <head> we write opening tag <title> inside it and then closing title before closing head. It cant be such that you close head before closing title. There is a hiearchial order. 
 [Nested tags](https://github.com/sikandar-shah/web-design/blob/HTML/nestedtag.html)
+   
+## Comments in HTML
+This activity will enable you to learn about comments. single line and multiline comments are sometimes needed for debugging purposes. The coder also can save hints in comments in HTML.
+[Comments tag](https://github.com/sikandar-shah/web-design/blob/HTML/comments.html)
+
+## Attributes in HTML
+This activity demonstrates use of attributes for HTML tags. Every tag has one or more attributes. In this section we show how to use attributes to effectively use tags.
+[Attributes HTML tag](https://github.com/sikandar-shah/web-design/blob/HTML/attributes.html)
