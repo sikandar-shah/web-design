@@ -26,6 +26,6 @@ For better results, you need to do the following.
    the problem with your code.
 
 ```
-[Heading tags practice](https://github.com/sikandar-shah/web-design/wiki/Activity-2) In order to practice heading tags that are of 6 types of the format hx (where x can be from 1 to 6). h1 being the largest and h6 being the smallest. This tag is written as a pair meaning that it has an opening and closing tag. 
+[Heading tags practice](https://github.com/sikandar-shah/web-design/blob/HTML/exercise1.html) In order to practice heading tags that are of 6 types of the format hx (where x can be from 1 to 6). h1 being the largest and h6 being the smallest. This tag is written as a pair meaning that it has an opening and closing tag. 
 
 
