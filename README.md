@@ -60,3 +60,19 @@ This activity shows difference between block and inline elements. In previous ve
 [Inline tag](https://github.com/sikandar-shah/web-design/blob/HTML/inline.html)
 [Block tag](https://github.com/sikandar-shah/web-design/blob/HTML/block.html)
 
+## Description List
+The dl element is allowed to contain only dt and dd elements. You cannot put headings or content-grouping elements (like paragraphs) in names (dt), but the value (dd) can contain any type of flow content. For example, the last dd element in the example contains two paragraph elements. It is permitted to have multiple definitions with one term and vice versa. Here,
+each term-description group has one term and multiple definitions:
+```  
+   <dl>
+      <dt>Shapes</dt>
+      <dd>Circle</dd>
+      <dd>Square</dd>
+      <dt>Dogs</dt>
+      <dd>German Sheperd</dd>
+      <dd>Doberman</dd>
+      <dd>Poodle</dd>
+   </dl>
+   ```
+[Description List tag](https://github.com/sikandar-shah/web-design/blob/HTML/descriptionlist.html)
+   
