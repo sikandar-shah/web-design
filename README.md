@@ -54,3 +54,9 @@ This activity will enable you to learn about comments. single line and multiline
 ## Attributes in HTML
 This activity demonstrates use of attributes for HTML tags. Every tag has one or more attributes. In this section we show how to use attributes to effectively use tags.
 [Attributes HTML tag](https://github.com/sikandar-shah/web-design/blob/HTML/attributes.html)
+
+## Inline vs Block Elements
+This activity shows difference between block and inline elements. In previous versions heading and paragraph tags would display on same line but in html 5 they are displayed on seperate lines. A tag that is displayed on another new line is called block element. A tag that is displayed on same line after or before other html elements is called inline element. 
+[Inline tag](https://github.com/sikandar-shah/web-design/blob/HTML/inline.html)
+[Block tag](https://github.com/sikandar-shah/web-design/blob/HTML/block.html)
+
