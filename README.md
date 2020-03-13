@@ -76,3 +76,7 @@ each term-description group has one term and multiple definitions:
    ```
 [Description List tag](https://github.com/sikandar-shah/web-design/blob/HTML/descriptionlist.html)
    
+## Preformatted Tag
+This tag is very useful if you wanted to show code or poems or any content that should be dispalyed as is. What this means is this tag includes all whitespaces and carriage returns in the content and the text is meant to be displayed with all these details.
+
+[Preformatted tag](https://github.com/sikandar-shah/web-design/blob/HTML/preformatted.html)
