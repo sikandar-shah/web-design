@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Content Form Elements</title>
+        <style>
+            label{
+              display:inline-block;
+              width:150px;
+            }
+        </style>
+    </head>
+    <body style="margin:0;background-color:#1c478e;color:#fff";>
+        <h1 style="margin:0;padding:5px;background-color:#333;color:#fff";>
+          Blue Developer Directory
+        </h1>
+      <div style="padding-left:20px;">
+          <h3> Contact us</h3>
+          <p>please use this form to contact a member of our website team</p>
+          <form action="#" method="post">
+              <p>
+                <label for="name">Full Name:</label>
+                <input type="text" name="name">
+              </p>
+              <p>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email">
+              </p>
+              <p>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone">
+              </p>
+              <p>
+                <label for="call">Best Time to Call</label>
+                <input type="radio" name="call" value="morning">Morning
+                <input type="radio" name="call" value="afternoon">AfterNoon
+                <input type="radio" name="call" value="evening">Evening
+              </p>
+              <p>
+                <label for="budget">Budget</label>
+                <select type="list" name="budget">
+                    <option >--Select One---</option>
+
+                    <option value="100-500">Rs. 100 to 500</option>
+                    <option value="501-100">Rs. 501 to 1000</option>
+                    <option value="1001-1500">Rs. 1001 to 1500</option>
+
+                </select>
+
+              </p>
+              <p>
+                <label for="services">Services Booked</label>
+
+                <table>
+                    <tr>
+                        <td><input type="checkbox"  name="services" value="html">HTML</td>
+                        <td><input type="checkbox"  name="services" value="css">CSS</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"  name="services" value="ASP">ASP</td>
+                      <td><input type="checkbox"  name="services" value="Javascript">Javascript</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"  name="services" value="C">C++</td>
+                      <td><input type="checkbox"  name="services" value="design">Design</td>
+                    </tr>
+                  </table>
+              </p>
+              <p>
+                    <input type="button" name="Submit" value="Submit form">
+              </p>
+          </form>
+      </div>
+
+    </body>
+</html>
