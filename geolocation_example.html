@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Showing Geolocation on Google Map through hyperlink</title>
+<script>
+    function showPosition() {
+        navigator.geolocation.getCurrentPosition(showMap);
+    }
+
+    function showMap(position) {
+        // Get location data
+        var latlong = position.coords.latitude + "," + position.coords.longitude;
+
+        // Set Google map source url
+         var mapLink = "https://www.google.com/maps/@"+latlong+",16z?hl=en";
+
+        // Create and insert Google map
+        document.getElementById("embedMap").innerHTML = "<a href='"+ mapLink +"'>Go to my location</a>";
+    }
+</script>
+</head>
+<body>
+
+    <button type="button" onclick="showPosition();">Show My Position on Google Map</button>
+    <div>
+      <h2 id="showMessage"></h2>
+    </div>
+    <div id="embedMap">
+
+    </div>
+
+</body>
+</html>

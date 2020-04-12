@@ -1,0 +1,39 @@
+<svg width="100%" height="100%">
+  <defs>
+   <pattern id="Pattern01" width="100" height="100" patternUnits="userSpaceOnUse">
+  <line stroke="green" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4"
+  stroke-opacity="1" stroke-dasharray="1, 6" stroke-dashoffset="0" x1="90" y1="10" x2="10" y2="90"  id="patternLine1" />
+
+  <use stroke-opacity="1" transform="rotate(90, 50, 50)" xlink:href="#patternLine1" id="patternLine2" />
+  <ellipse fill="red" fill-opacity="0.3" fill-rule="nonzero" stroke="#32287d" stroke-width="1" stroke-opacity="0.5"
+  id="path3389" cx="50" cy="50" rx="30" ry="20" />
+
+  <!-- Draw the upper-right rectangle.
+    -->
+  <rect fill="pink" fill-opacity="1" fill-rule="nonzero"  stroke="#32287d" stroke-width="10" stroke-linecap="butt"
+   stroke-linejoin="bevel" stroke-miterlimit="4" stroke-opacity="0.4"        id="patternRect-upperRight"
+    width="20" height="20" x="90" y="-10" />
+
+  <use transform="rotate(90, 50, 50)"          xlink:href="#patternRect-upperRight"          id="patternRect-lowerRight" />
+  <use transform="rotate(180, 50, 50)"          xlink:href="#patternRect-upperRight"          id="patternRect-lowerLeft" />
+  <use transform="rotate(270, 50, 50)"          xlink:href="#patternRect-upperRight"          id="patternRect-upperLeft" />
+
+  <!-- Draw the circle. -->
+   <circle fill="#d9d2a1" fill-opacity="1" fill-rule="nonzero"              stroke="#32287d" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="bevel" stroke-miterlimit="4"             id="path3395" cx="50" cy="50" r="10" />
+
+  <!-- Draw the path using "relative"coordinates via lowercase path commands.
+  Note that we can easily switch to using the Polyline element by changing       the "d" attribute to "points". -->
+  <path fill="none" stroke="#000000" strGoke-width="1px" stroke-linecap="butt"
+  stroke-linejoin="miter" stroke-opacity="1"           d="m 0,50 10,0 0,20 20,20 0,0 0,0 20,0 0,10"
+   id="patternPath-lowerLeft" />
+
+  <!-- Reuse the first path, rotate it 90 more degrees for each of the four corners. --> <use transform="rotate(90, 50, 50)"
+           xlink:href="#patternPath-lowerLeft"          id="patternPath-upperLeft" />
+  <use transform="rotate(180, 50, 50)"          xlink:href="#patternPath-lowerLeft"          id="patternPath-upperRight" />
+  <use transform="rotate(270, 50, 50)"          xlink:href="#patternPath-lowerLeft"          id="patternPath-lowerRight" />
+</pattern>
+</defs>
+<rect id="Background" x="0" y="0" width="100%" height="100%"    fill="url(#Pattern01)" stroke-width="0.5" stroke="#000000" />
+
+</svg>

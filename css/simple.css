@@ -1,0 +1,80 @@
+
+/* Other styles */
+body {
+  background: #000;
+  color: #FFF;
+}
+/*
+.box-with-text {
+    background-image: url(http://tympanus.net/codrops-playground/assets/images/posts/23145/image1.jpg);
+
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-repeat: repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+   text-align: center;
+  text-transform: uppercase;
+  font: 26vmax/.85 Open Sans, Impact;
+  font-weight: 700;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+}
+*/
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+
+
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+    
+
+  }
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+
+
+  }
+}
+/* Other stuff */
+body {
+  background: #000;
+  color: #FFF;
+}
+
+.box-with-text {
+  background-image: url(http://tympanus.net/codrops-playground/assets/images/posts/23145/image1.jpg);
+
+
+  /*  background-image: -webkit-linear-gradient(green 70%, white 30%);  */
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+//    -webkit-animation: stripes 2s linear infinite;
+//    animation: stripes 2s linear infinite;
+  position: absolute;
+  text-transform: uppercase;
+  font: bold 18vmax/.8 Open Sans, Impact;
+  /*-webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);   */
+  position: absolute;
+  background-repeat: repeat;
+  background-size: cover;
+}

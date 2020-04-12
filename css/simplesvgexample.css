@@ -1,0 +1,36 @@
+@font-face { font-family: 'pt_sansregular'; src: url('../font/pt_sansregular.woff') format('woff'); font-weight: normal;
+ font-style: normal;}
+body { font-family: 'pt_sansregular', sans-serif; padding: 2rem; }
+circle { stroke: #000000; stroke-width: 4; fill: #cdc7c7; }
+
+span { width: 50px; vertical-align: top; }
+svg { display: inline-block; height: 50px; padding-top: 20px; }
+#squareID, #rectangleID { margin-left: 2px; }
+
+
+.svg-4:hover path {
+  d: path("M2,5 C2,2 8,2 8,5");
+}
+
+
+svg {
+  width: 30%;
+  height: 30%;
+  background: #eee;
+  margin-bottom: 5%;
+}
+svg polyline,
+svg line,
+svg path {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+ }
+
+
+  #path_Id{
+
+    stroke: #213;
+   stroke-linecap: round;
+ }

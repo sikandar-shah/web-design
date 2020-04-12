@@ -1,0 +1,19 @@
+
+svg { display: inline-block; height: 50px; padding-top: 20px; }
+
+
+
+svg {
+  width: 30%;
+  height: 30%;
+  background: #eee;
+  margin-bottom: 5%;
+}
+
+
+
+  #path_Id{
+
+    stroke: #1522ef;
+   stroke-linecap: round;
+ }
