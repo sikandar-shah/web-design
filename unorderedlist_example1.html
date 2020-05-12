@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Table styles </title>
+<style>
+/*  li {
+  	margin: 0;
+  	padding: 10px 0 15px 60px;
+  	list-style: none;
+    color:green;
+  	background-image: url("images/bullet.svg");
+  	background-repeat: no-repeat;
+  	background-position: left center;
+  	background-size: 40px;
+  }*/
+  ul.bulletstyle li{
+    margin: 0;
+  	padding: 10px 0 15px 60px;
+  	list-style: none;
+  	background-image: url("images/bullet.svg");
+  	background-repeat: no-repeat;
+  	background-position: left center;
+  	background-size: 40px;
+    color:red;
+    font-weight:bold;
+  }
+  li.bullet {
+  	margin: 0;
+  	padding: 10px 0 15px 60px;
+  	list-style: none;
+  	background-image: url("images/bullet.svg");
+  	background-repeat: no-repeat;
+  	background-position: left center;
+  	background-size: 40px;
+
+  }
+
+  li.bulletstyle {
+  	margin: 0;
+  	padding: 10px 0 15px 60px;
+  	list-style: none;
+  	background-image: url("images/bullet.svg");
+  	background-repeat: no-repeat;
+  	background-position: left center;
+  	background-size: 40px;
+  }
+  </style>
+</head>
+<body>
+
+
+  <!--
+    a ul can be changed to ol by giving it style of list-style-type.
+    starts isnt supported if list-style-list is given.
+    value is supported in list item if list-style-list is provided in style attribute.
+  style attribute and values.
+      list-style-type: lower-alpha, decimal, upper-alpha,lower-roman, upper-roman
+      text-align: left, right, center
+
+      list-style-type: disc, square, circle.
+
+      list-style-image:	url(/bullet.gif)
+
+      list-style-position:inside, outside
+      This property gives a style to the positioning of text such that it starts from below the bullet in line with the leftmost starting position of bullet.
+      By default, text started from rightmost edge of bullet when text was greater and displated on next line.
+
+      Interesting to note that if line-style-position is specified on li then behaviour is different, the li gives indent towards right of the parent list.
+ li attribute values
+    value="3"
+
+   -->
+   <h2>A simple unordered list</h2>
+   <h3>Precaution amid corona virus</h3>
+   <ul	style="list-style-position:	inside;">
+     <li>Wash hands for 20 seconds</li>
+     <li>Stay at a distance of 6 foot from each other distance of 6 foot from each other distance of 6 foot from each other distance of 6 foot from each other distance of 6 foot from each other distance of 6 foot from each other distance of 6 foot from each other distance of 6 foot from each other</li>
+     <li > Practice self distancing Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing </li>
+     <li > Practice self distancing Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing  Practice self distancing </li>
+   </ul>
+
+   <h2>An unordered list with list-style-image used in style attribute</h2>
+   <h3>Precaution amid corona virus</h3>
+  <ul  style="list-style-image:	url(images/bullet.svg); list-style-position:	inside;">
+    <li>Wash hands for 20 seconds</li>
+    <li>Stay at a distance of 6 foot from each other</li>
+    <li value="5">Practice self distancing. Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.Practice self distancing.</li>
+  </ul>
+    <h3> <mark>The problems in above is that the image is bigger and cannot be resized inside the list item</mark></h3>
+
+    <h2>Another way by using images as bullets and use list-style:none to supress default bullest to show</h2>
+    <h3>Precaution amid corona virus</h3>
+    <ul style="list-style:none;">
+      <li><img src="images/bullet.png" width="30px" height="30px">Wash hands for 20 seconds</li>
+      <li><img src="images/bullet.png" width="30px" height="30px">Stay at a distance of 6 foot from each other</li>
+      <li><img src="images/bullet.png" width="30px" height="30px">Practice self distancing </li>
+    </ul>
+    <h3> <mark>The problems in above that we need to write image tag in every li as well as specifying dimensions. The other problem is that the bullet is not positioned inline with the content of li. </mark></h3>
+
+
+  <h2>Another way by assigning class to list item.</h2>
+  <h3>Precaution amid corona virus</h3>
+  <ul >
+    <li class="bullet">Wash hands for 20 seconds</li>
+    <li class="bullet">Stay at a distance of 6 foot from each other</li>
+    <li class="bullet">Practice self distancing </li>
+  </ul>
+  <h3> <mark>The problems in above that we need to write class attribute in every li. </mark></h3>
+
+  <h2>Last way by specifying style for general list item tag. For this uncommnent the commented section in  head tag and see how that fares.</h2>
+  <h3>Precaution amid corona virus</h3>
+  <ul >
+    <li >Wash hands for 20 seconds</li>
+    <li >Stay at a distance of 6 foot from each other</li>
+    <li >Practice self distancing </li>
+  </ul>
+  <h3> <mark>The problems in above that the style is applied to all. </mark></h3>
+
+  <h2>Last but not least another way is specifying style for all list item tag by specifying class for ul tag.</h2>
+  <h3>Precaution amid corona virus</h3>
+  <ul class="bulletstyle">
+    <li >Wash hands for 20 seconds</li>
+    <li >Stay at a distance of 6 foot from each other</li>
+    <li >Practice self distancing </li>
+  </ul>
+  <h3> <mark>We could have used id as well. Here we specified class only once and all sibling li are styled. The padding is correct. The above problems seem to have resolved. </mark></h3>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*.outer{border-style: solid; border-color: black;}*/
+      	.outer{border:2px	solid	black;background-color:gray;padding:15px;margin:40px;}
+      .inner{border:2px dotted black; background-color:	white; padding:15px;width: 50%;margin-left: auto;margin-right: auto;	}
+      h2 {   margin: 0 0 20px 0;}
+      p {  margin: 10px 0 0 0;}
+      body	{	margin:	0px;border:23px	solid	blue;padding:	20px;background-color:yellow;}
+      ul.inline li{display: inline;}
+      .overflow{width:150px;height:80px;border:2px solid green;overflow:scroll;}
+
+    /*  The	values	are	visible	(this	is	the	default), hidden,	scroll,	auto,	and	inherit */
+
+    </style>
+  </head>
+  <body>
+      <div class="outer">
+        In the outer div
+        <div class="inner">
+          In the inner div.
+        </div>
+      </div>
+      <h2>Collapsing Margins</h2>
+      <p>Example text.</p>
+
+      <ul class="inline">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+      </ul>
+      <p>one.<br>two.<br>three.<br></p>
+
+      <div class="overflow">
+          This text is checking for the width and height style of CSS and also
+          the text overflow. This is basically a demonstration as to how overflow
+          can be controlled with different property and values provided by CSS.
+
+      </div>
+  </body>
+</html>

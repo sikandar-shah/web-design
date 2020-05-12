@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>
+        Form example
+    </title>
+    <style>
+      form	h1	{				color:	#009; }
+      form>p{				font-size:	22px; }
+      label	~	input	{				display:	block;				clear:	both;  border-color: red;}
+      *	+	fieldset	{				margin:	5em	0; }
+      p::first-line	{				font:	bold	1em	serif;				font-style:	italic;				color:	#673ab7; }
+      ::selection	{				background:	#ff7;	color:	#600; }
+            .comment:target	{				background:	#ffeb3b;				border-color:	#ffc107; }
+            input:required	{				border:	1px	solid	blue; }
+
+
+    </style>
+
+</head>
+<body>
+    <form method="get" action="preprocessor" style="font-weight:14px;">
+      <h1>Buy	Tickets	to	the	Web	Developer	Gala</h1>
+      	<p>Tickets	are	$10	each.	Dinner	packages	are	an	extra	$5.	All  	fields	are	required. Tickets	are	$10	each.	Dinner	packages	are	an	extra	$5.	All  	fields	are	required. Tickets	are	$10	each.	Dinner	packages	are	an	extra	$5.	All  	fields	are	required. Tickets	are	$10	each.	Dinner	packages	are	an	extra	$5.	All  	fields	are	required. Tickets	are	$10	each.	Dinner	packages	are	an	extra	$5.	All  	fields	are	required. Tickets	are	$10	each.	Dinner	packages	are	an	extra	$5.	All  	fields	are	required. </p>
+          	<fieldset>
+                  <legend>Tickets	and	Add-ons</legend>
+								    <p>
+                      <label	for="quantity">Number	of	Tickets</label>
+                  		<span	class="help">Limit	8</span>
+                      <input	type="number"	value="1"	name="quantity" required 	id="quantity"	step="1"	min="1"	max="8">
+                    </p>
+								    <p>
+                      <label	for="quantity">Dinner	Packages</label>
+                      <span	class="help">Serves	2</span>
+                      <input	type="number"	value="1"	name="quantity"  	id="quantity"	step="1"	min="1"	max="8">
+                    </p>
+				   </fieldset>
+           <fieldset>
+             <legend>Payment</legend>
+            	<p>
+                <label	for="ccn">Credit	card	number</label>
+                <span	class="help">No	spaces	or	dashes,	please.</span>
+                <input	type="text"	id="ccn"	name="ccn"	placeholder=  "372000000000008"	maxlength="16"	size="16">
+              </p>
+              <p>
+                <label	for="expiration">Expiration	date</label>
+                <span	class="help">
+                  <abbr	title="Two-digit	month">MM  </abbr>/<abbr	title="Four-digit	Year">MM</abbr>YYYY
+                </span>
+                <input	type="text"	id="expiration"	name="expiration"	 placeholder="01/2018"	maxlength="7"	size="7">
+              </p>
+            </fieldset>
+      			<fieldset>
+              <legend>Billing	Address</legend>
+              <p>
+                <label	for="name">Name</label>
+                <input	type="text"	id="name"	name="name"	placeholder=  "ex:	John	Q.	Public"	size="40">
+                <label	for="name">Name</label>
+
+                <input	type="text"	id="name"	name="name"	placeholder=  "ex:	John	Q.	Public"	size="40">
+
+              </p>
+              <p>
+                <label	for="street_address">Street	Address</label>
+                <input	type="text"	id="name"	name="name"	placeholder= "ex:	12345	Main	Street,	Apt	23"	size="40">
+              </p>
+              <p>
+                <label	for="city">City</label>
+                <input	type="text"	id="city"	name="city"	placeholder= "ex:	Anytown">
+              </p>
+              <p>
+                <label	for="state">State</label>
+                <input	type="text"	id="state"	name="state"	placeholder= "CA"	maxlength="2"	pattern="[A-W]{2}"	size="2">
+             </p>
+             <p>
+               <label	for="zip">ZIP</label>
+               <input	type="text"	id="zip"	name="zip"	placeholder= "12345"	maxlength="5"	pattern="0-9{5}"	size="5">
+          	</p>
+          </fieldset>
+      <button	type="submit">Buy	Tickets!</button>
+      <a href="#comment-1146937891">Click to highlight comment</a>
+    </form>
+    <section	id="comments">				<h2>Comments	on	this	post</h2>
+      	<article	class="comment"	id="comment-1146937891">..Any comment just for testing.</article>
+        <article	class="comment"	id="comment-1146937892">...</article>
+        <article	class="comment"	id="comment-1146937893">...</article>
+      </section>
+
+
+  </body>
+</html>

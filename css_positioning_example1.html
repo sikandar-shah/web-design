@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+      CSS positioning
+  </title>
+  <style>
+      .thing{border:3px solid red; width:150px; height: 200px;position: relative;left:50px;top:50px;overflow:hidden;display:inline-block;}
+      .thing1{border:3px solid blue; width:200px; height: 200px;position: absolute;left:256px;top:50px;}
+      .thing2{border:3px solid green; width:200px; height: 200px;position: fixed;left:50px;top:50px;background-color: grey;opacity: 0.5;color:white;}
+      .thing3{border:3px solid orange; width:200px; height: 200px;position:absolute;left:50px;top:650px;}
+
+  </style>
+</head>
+<body>
+  <h2> There are four positioning values. Fixed, Relative, Absoulute and Static.<h2>
+    The static and relative scheems do not alter the layout of the document.
+    Static is the default scheme.
+    <h2> Normal Flow</h2>
+    Elements that are not floated flow down the page from top to bottom and left to right.
+
+    <h2>Relative</h2>
+    Relative scheeme position the lement reltaice to its position in the normal flow.
+    The	element’s	original	positioned	is	preserved	and	affects	the position	of	the	subsequent	elements.
+    <h2>Absoulte and Fixed</h2>
+    The	absolute	and	fixed	schemes enable	you	to	position	elements	in	any	location	you	like,	and	elements positioned	using	those	schemes	are	removed	from	the	document	layout	entirely.
+    <div class="thing">
+      Red box is relative positioned.
+        <img src="images/open-water.jpg" alt="shark">
+      </div>
+        <div class="thing1">
+          Blue box is absolute positioned.
+        </div><div class="thing2">
+          Green box is fixed position.
+        </div>
+      </div><div class="thing">
+        Red box is relative position.
+      </div>
+    </div><div class="thing3">
+      orange box is absolute position.
+    </div>
+    
+
+</body>
+</html>
