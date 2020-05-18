@@ -1,0 +1,11 @@
+.warning {font-weight: bold;}
+.urgent {font-style: italic;}
+.warning .urgent{background:red;}
+div.imprtnt{color:red;font-weight:bold;}
+p.imprtnt{color:blue;font-weight:bold;}
+div p.note{color:green;}
+li:only-child{color:red;}
+img:only-child {border: 5px solid black;width:50px;height:50px;}
+input[type="email"]:focus {  background-position: 100% 50%;  background-repeat: no-repeat; }
+input[type="email"]:focus:invalid {  background-image: url(images/sharky.png); }
+input[type="email"]:focus:valid {  background-image: url(images/whale-icon.png); }
