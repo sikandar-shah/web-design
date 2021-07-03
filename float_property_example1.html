@@ -1,0 +1,54 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+<title>   Float Property  </title>
+<style>
+    .one{ float:left; border: 2px solid red; width:180px;}
+    .two{float:right; border: 2px solid blue;width:180px;}
+    .three{float:right; border: 2px solid green;width:180px;}
+    .four{ float:right; border: 2px solid green;width:180px;}
+    .rule1{float:right;border:2px solid brown; width:500px;}
+    .left60{float:left;background-color: red;width:60%;}
+      .right60{float:right;background-color: orange;width:60%;}
+</style>
+</head>
+<body>
+    <p>This is a pragraph tag and here is some text. The content will be tested against what float performs
+      and how the contents are wrapped around some element with float property enabled to right or left.
+      Lets close this paragraph.   This is a pragraph tag and here is some text. The content will be tested against what float performs
+          and how the contents are wrapped around some element with float property enabled to right or left.
+          Lets close this paragraph.</p>
+          <div class="rule1">The left (or right) outer edge of a floated element may not be to the left (or right) of the inner edge of its containing block.
+    <div class="one">  This is the first div tag and it has red color</div> </div>
+    <p>This is a pragraph tag and here is some text. The content will be tested against what float performs
+      and how the contents are wrapped around some element with float property enabled to right or left.
+      Lets close this paragraph.   This is a pragraph tag and here is some text. The content will be tested against what float performs
+          and how the contents are wrapped around some element with float property enabled to right or left.
+          Lets close this paragraph.</p>
+      <p>
+      This is a pragraph tag and here is some text. The content will be tested against what float performs
+        and how the contents are wrapped around some element with float property enabled to right or left.
+        Lets close this paragraph.  This is a pragraph tag and here is some text. The content will be tested against what float performs
+            and how the contents are wrapped around some element with float property enabled to right or left.
+            Lets close this paragraph.</p>
+    <div class="two"> This is the second div tag and has blue color.</div>
+    <p>This is a pragraph tag and here is some text. The content will be tested against what float performs
+      and how the contents are wrapped around some element with float property enabled to right or left.
+      Lets close this paragraph. <a href="#">This is hyper not floated</a>   This is a pragraph tag and here is some text. The content will be tested against what float performs
+          and how the contents are wrapped around some element with float property enabled to right or left.
+          Lets close this paragraph.</p>
+    <div class="three"> This is the third div tag and has green color  </div>
+    <p>This is a pragraph tag and here is some text. The content will be tested against what float performs
+      and how the contents are <div class="four"> This is the third div tag and has green color  </div> wrapped around some element with float property enabled to right or left.
+      Lets close this paragraph. <a class="four" href="#">This is hyper floated</a>   This is a pragraph tag and here is some text. The content will be tested against what float performs
+          and how the contents are wrapped around some element with float property enabled to right or left.
+          Lets close this paragraph.</p>
+
+          <div class="one">this is left floated</div><div class="one">this is left floating</div>
+          <div class="left60">This is a div that takes 60% of the space.</div>
+          <div class="right60">This is a div that takes 60% of the space.</div>
+
+          <p class="one">this is a para</p> <p class="two">this is a para</p> <p class="two">this is a para</p> 
+
+  </body>
+</html>

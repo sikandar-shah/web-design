@@ -1,0 +1,74 @@
+
+  <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+      body{
+        background-color: beige;
+      }
+      div ~p{background: yellow;}
+
+      .wrapper{
+        width:100%;
+        height: 799px;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 340px;
+        max-width: 1100px;
+       }
+      header,aside,main,footer{
+        border: 1px solid black;
+      }
+      header{
+        display:block;
+        width:100%;
+        height: 10%;
+        margin-bottom: 10px;
+      }
+      footer{
+        clear:both;
+        display:block;
+        width:100%;
+        height: 10%;
+        margin-top: 10px;
+      }
+      aside{
+        display:inline-block;
+        float:left;
+        box-sizing: border-box;
+        width:33%;
+        margin:10px;
+        margin-left:0px;
+        height: 25%;
+
+      }
+      main{
+        float:right;
+        width:64%;
+        height:80%;
+        box-sizing: border-box;
+        margin:10px;
+        margin-right:0px;
+        clear:both;
+      }
+
+
+      </style>
+    </head>
+    <body>
+        <div class="wrapper">
+          <header>Header</header>
+          <main>Main</main>
+          <aside>Aside1</aside>
+          <aside>Aside2</aside>
+          <aside>Aside 3</aside>
+            <footer>Footer</footer>
+        </div>
+        <div>
+          <p>PAragraph 1 in the div </p>
+          <p>Paragraph 2 in the div</p>
+        </div>
+        <p>Parageah 3</p>
+        <p>paragraph 4</p>
+    </body>
+    </html>
